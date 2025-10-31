@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\")",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(cat:*)",
+      "Read(//Users/jasonhenkel/Downloads/**)",
+      "Bash(ls:*)",
+      "WebFetch(domain:goloadup.com)",
+      "Read(//Users/jasonhenkel/Desktop/lux-website-main/public/images/**)",
+      "Read(//Users/jasonhenkel/Desktop/lux-website-main/public/**)",
+      "Bash(npm run build:*)",
+      "Read(//Users/jasonhenkel/Desktop/lux-website-main/**)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Read(//Users/jasonhenkel/Desktop/**)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(vercel:*)",
+      "Bash(rm:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
